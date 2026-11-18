@@ -8,6 +8,17 @@ Pipeline to rank the best T20 batters and bowlers under match pressure from ball
 - `data/`: Raw competition CSV data (confidential, excluded from version control).
 - `out/`: Diagnostic logs, ledgers, rankings, and exhibits (excluded from version control).
 
+## Setup & Virtual Environment
+Create and activate the virtual environment:
+```bash
+python -m venv .venv
+# Windows PowerShell
+.venv\Scripts\Activate.ps1
+# Linux/macOS
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
 ## Usage
 Run the synthetic fixture generator:
 ```bash

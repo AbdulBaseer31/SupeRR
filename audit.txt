@@ -86,3 +86,4 @@ is_impact_off | int64 | nulls=0 | unique=2
 comp_id | int64 | nulls=0 | unique=141
 team_id | int64 | nulls=0 | unique=38
 team_name | str | nulls=0 | unique=38
+    
