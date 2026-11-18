@@ -1,5 +1,4 @@
 """Acceptance tests for S1: Load, diagnostics, and exclusion ledger."""
-import pytest
 from pathlib import Path
 import pandas as pd
 
