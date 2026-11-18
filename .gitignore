@@ -1,0 +1,15 @@
+# Unignore fixture data CSVs
+!tests/fixture_data/*.csv
+!tests/fixture_data/**/*.csv
+
+# Confidential and output data
+data/
+out/
+*.csv
+
+# Python environments and cache
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
